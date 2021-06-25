@@ -1,17 +1,22 @@
-# 아쿠아헤가오 봇
-여러분의 3대 욕구 중 하나를 책임질 NSFW 봇, 아쿠아헤가오 봇입니다.
+# 아쿠아헤가오 봇 2.0
+웹툰, 애니, NSFW 작품의 정보를 한눈에 확인할 수 있는 봇을 만나보세요!\
+여러분의 3대 욕구 중 하나를 책임집니다.
+[봇 초대하기](https://discord.com/oauth2/authorize?client_id=790968269007880232&permissions=0&scope=bot)
 
 ## 기능
-- 사용자 지정 접두사
-- 애니메이션 검색
-- [Hitomi.la](https://hitomi.la) 갤러리 검색
-- [Nozomi.la](https://nozomi.la) 포스트 검색
-- [Rule34](https://rule34.xxx) 포스트 검색
-- [Rule34(Paheal)](https://rule34.paheal.net) 포스트 검색
-- [Pixiv](https://pixiv.net) 이미지 검색
-- [Hiyobi](https://hiyobi.me) 갤러리 검색
-- 원하는 작품 북마크 추가
-- 서버별 금지 태그 추가
+- 애니메이션 검색, 분기별 작품 목록, 추천
+- Hitomi.la 검색, 최신 업로드
+- Nozomi.la 검색
+- Rule34 검색
+- Pixiv 검색, 이미지 검색, 랭킹
+- E-Hentai/ExHentai 검색
+- 네이버 웹툰 검색, 요일별 순위, 인기, 최신, 신작
+- 카카오페이지 검색, 요일별 순위
+- 다음 웹툰 검색, 요일별 순위
+- 레진코믹스 검색, 순위
+- 서버별 커스텀 접두사
+- 북마크
+- 서버별 금지 태그
 
 ## 사용 시 주의사항
 1. Aquahegao-Bot은 성인 전용 봇입니다. 명령어 사용 전 이를 묻는 메시지가 전송됩니다.
@@ -26,7 +31,9 @@
 - [디스코드](https://discord.gg/satHMkSY8N)
 - [한국 디스코드 봇 리스트](https://koreanbots.dev/bots/790968269007880232)
 
-## 출처
-- [python-nozomi](https://github.com/Aquahegao/python-nozomi): 특정 함수만 비동기로 변환한 수정 버전입니다.
-- [EZPaginator](https://github.com/khk4912/EZPaginator): 봇에 맞게 개조한 페이지 컨트롤러입니다.
-- [EnDecrypt](https://m.blog.naver.com/wideeyed/221666489901): 암호화/복호화 코드 출처입니다.
+## 오픈소스 정보
+- [python-nozomi](https://github.com/Alfa-Q/python-nozomi): `modules/nozomi.py` 내장 모듈
+- [EZPaginator](https://github.com/khk4912/EZPaginator): `modules/Pagination.py` 내장 모듈
+- [EnDecrypt](https://m.blog.naver.com/wideeyed/221666489901): `modules/encrypt.py` 내장 모듈
+- [Rule34.xxx API Wrapper](https://github.com/LordOfPolls/Rule34-API-Wrapper): `modules/rule34.py` 내장 모듈
+- [Hiyobot](https://github.com/Saebasol/Hiyobot): `extensions.pixiv` `shffule` 내장함수, beta.doujinshiman.ga 이미지 프록시 URL
