@@ -14,6 +14,8 @@
 - 카카오페이지 검색, 요일별 순위
 - 다음 웹툰 검색, 요일별 순위
 - 레진코믹스 검색, 순위
+- nHentai 검색, 랜덤, 인기
+- 랜덤 짤 전송
 - 서버별 커스텀 접두사
 - 북마크
 - 서버별 금지 태그
@@ -36,4 +38,5 @@
 - [EZPaginator](https://github.com/khk4912/EZPaginator): `modules/Pagination.py` 내장 모듈
 - [EnDecrypt](https://m.blog.naver.com/wideeyed/221666489901): `modules/encrypt.py` 내장 모듈
 - [Rule34.xxx API Wrapper](https://github.com/LordOfPolls/Rule34-API-Wrapper): `modules/rule34.py` 내장 모듈
-- [Hiyobot](https://github.com/Saebasol/Hiyobot): `extensions.pixiv` `shffule` 내장함수, beta.doujinshiman.ga 이미지 프록시 URL
+- [Hiyobot](https://github.com/Saebasol/Hiyobot): `extensions.pixiv` `shffule` 내장함수
+- 픽시브 이미지 미리보기에 Hiyobot의 beta.doujinshiman.ga 이미지 프록시 URL을 사용하였습니다.
